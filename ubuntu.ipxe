@@ -21,7 +21,7 @@ goto mirrorcfg
 
 :older_release
 set older_release true
-set ubuntu_mirror http://old-releases.ubuntu.com
+set ubuntu_mirror http://ftp.iij.ad.jp/pub/linux/ubuntu/archive
 echo Setting mirror to ${ubuntu_mirror}
 clear ubuntu_version
 echo -n Please set enter code name of release: ${} && read ubuntu_version
